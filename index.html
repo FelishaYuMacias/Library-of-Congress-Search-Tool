@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Library of Congress Search</title>
+</head>
+
+<body class="flex-column min-100-vh">
+    <main class="flex-row justify-space-between ">
+    <div class="col-12 col-md-6">
+        <h3>Library of Congress Search Engine</h3>
+
+        <form id="search-form" class="card-body">
+          <input name="search" id="search" type="text" autofocus="true" class="form-input" />
+          <select name="search-format" id="search-format" class="form-input">
+            <option value="">All formats</option>
+              <option value="maps">maps</option>
+              <option value="audio">audio</option>
+              <option value="photos">photos</option>
+              <option value="manuscripts">manuscripts</option>
+              <option value="newspapers">newspapers</option>
+              <option value="film-and-videos">film-and-videos</option>
+              <option value="notated-music">notated-music</option>
+              <option value="websites">websites</option>
+          </select>
+          <button type="submit" class="btn">Search</button>
+        </form>
+
+    </div>
+</main>
+
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
